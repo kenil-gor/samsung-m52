@@ -924,7 +924,13 @@ nav {
     border: none;
     height: 50px;
     
+    
 }
+@media (max-width: 767px) { 
+    #card{
+        padding-left: 50px;
+    }
+ }
 #TEXT{
     color: #ADBBC6;
     height: 40px;
