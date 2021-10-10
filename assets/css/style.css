@@ -474,7 +474,6 @@ nav {
 
 .nav-item {
     margin: 0px 0px 0px 0px;
-    width: 120px;
     opacity: 1;
 }
 
@@ -512,6 +511,8 @@ nav {
 
 .nav-link {
     padding: 0px 0px 0px 0px;
+    color:#707070!important;
+    font-weight: 700;
 }
 
 .preloader {
@@ -922,7 +923,6 @@ nav {
     color:#374254;
     background-color: transparent;
     border: none;
-    height: 50px;
     
     
 }
@@ -966,4 +966,10 @@ nav {
     top: 0;
     right: 0;
     left: 0;
+}
+.background-light{
+    background-color: var(--Light-color);
+}
+.font-size-30{
+    font-size: 30px;
 }
