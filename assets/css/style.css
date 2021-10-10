@@ -473,7 +473,7 @@ nav {
 }
 
 .nav-item {
-    margin: 18px 8px 0px 8px;
+    margin: 0px 0px 0px 0px;
     width: 120px;
     opacity: 1;
 }
@@ -511,7 +511,7 @@ nav {
 }
 
 .nav-link {
-    padding: 10px 30px 12px 30px;
+    padding: 0px 0px 0px 0px;
 }
 
 .preloader {
@@ -811,7 +811,7 @@ nav {
 }
 
 .dropdown-item {
-    padding: 8px 12px;
+    padding: 0px 0px;
 }
 
 .CreateUser {
@@ -906,6 +906,8 @@ nav {
 
 .varient{
     font-size: 15px;
+    margin-top: 47px;
+    margin-bottom: 10px;
     color: #3ce7d9;
 }
 
@@ -916,50 +918,45 @@ nav {
     
 }
 #card{
-    background-color:rgb(107, 47, 47);
-    color: rgb(50, 166, 187);
+   
+    color:#374254;
+    background-color: transparent;
+    border: none;
     height: 50px;
     
 }
 #TEXT{
-    color: rgb(138, 36, 36);
-    text-align: end;
-    text-decoration: double;
+    color: #ADBBC6;
     height: 40px;
     font-size: 25px;
     
     
 }
-#nav{
-    background-color: gray;
-    color: #000000;
-    text-shadow: red;
-    text-align: end;
-    height: 110px;
-}
 
-#nav{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    background: #c0392b;
-    color: #000000;
-}
 
-#nav li a:hover{
-    background:rgb(95, 196, 52);
-}
+
+
+
 #img{
-    background-color: #002470;
-    padding: 0;
-    margin: 0;
-    height: 90px;
+    background-color: #ADBBC6;
+ 
+    border-radius: 10px;
 }
 
 #transition{
     
-    color: #d35b15;
-    padding: 15px 10px;
+    color: #fff;
+  
     display: block;
     transition-duration: .3s;;
+}
+#logo{
+    background-color: #ADBBC6;
+    height: 70px;
+    border-radius: 20px;
+}
+#navigation{
+    top: 0;
+    right: 0;
+    left: 0;
 }

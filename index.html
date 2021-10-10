@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="./assets/css/bootstrap.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img id="img" src="./assets/photos/logo-removebg-preview.png" alt="logo" ></a>
+    <nav id="navigation" class="navbar navbar-expand-lg navbar-light bg-light shadow position-fixed">
+        <a class="navbar-brand" href="#">
+            <img id="logo" src="./assets/photos/logo-removebg-preview.png" alt="logo" >      </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -39,77 +40,76 @@
 
 
   
-        <title link="123">discription about samsung m52</title>
+        <title>discription about samsung m52</title>
     </head>
     <body>
-        <br>
-        <br>
-        <br>
-        <div class="container">
+       
+        <div class="container m-5 p-5 mt-5">
             <div class="row">
 
-                <div class="colom col-md-5">
+                <div class=" col-md-5  ">
                     <h1>samsung M52</h1>
-                    <h6>about samsung M52</h6>
+                    <h6 style="margin-bottom: 48px;" >about samsung M52</h6>
                     <p >samsung M52 is a 5G phone. M52 has 2 varient 6 GB ram, 128 GB internal storage and 8GB ram, 128 GB internal storage. in this phone wide 16.95 centimeter(6.7-inch). super AMOLED Plus- Infinity O display, FHD+ resolution 1080 x 2400 (FHD+) pixels protected by Gorilla Glass 5. also in this phone Qualcomm SDM 778G Octa Core 2.4GHz,1.8GHz Processor with the 11 band support for a True 5G experience.</p>
-                    <div class="varient">
+                    <div style="color: #ADBBC6;" class="varient">
                         select varient
                     </div>
                     <div class="form-check">
-                        <label class="form-check-label p-1">
+                        <label class="form-check-label ">
                         <input type="radio" class="form-check-input" name="samsung" id="samsung" value="checkedValue" checked>
                         6GB ram, 128GB internal storage
                       </label>
                     </div>
-                    <div class="form-check p-3">
-                        <label class="form-check-label">
+                    <div class="form-check">
+                        <label style="margin-bottom: 30px;" class="form-check-label">
                         <input type="radio" class="form-check-input" name="samsung" id="samsung" value="uncheckedValue" unchecked>
                         8GB ram, 128GB internal storage
                       </label>
                     </div>
-                    <div  class="button btn bg-red-05">
+                    <div  class="button btn bg-blue text-white border-16 bg-blue-hover px-4 py-3">
                         add to cart    
                     </div>
                 </div>
-                <div class="colom col-md-6">
+                <div class="col col-md-6">
                     <img src="./assets/photos/samsung m52.png" height="500px">
                 </div>
             </div>
         </div>
-        <div id="mobile_vala">
+        <div >
             <br>
-        <div   class="container   ">
+        <div  class="container">
             <div class="row">
-                <div id="card"  class="card col-md-3">
-                    <div class="row">Processor </div>
+
+                <div id="card" class="card my-5 col-6 col-md-3">
+                    <div class="row">processor</div>
                     <div class="row">Qualcomm SM7325</div>
                 </div>
-                <div id="card" class="card col-md-3">
+                <div id="card" class="card my-5 col-6 col-md-3">
                     <div class="row">RAM</div>
                     <div class="row">6GB & 8GB</div>
                 </div>
-                <div id="card" class="card col-md-3">
+                <div id="card" class="card my-5 col-6 col-md-3">
                     <div class="row">Operating System</div>
                     <div class="row">Android 11</div>
                 </div>
-                <div id="card" class="card col-md-3">
+                <div id="card" class="card my-5 col-6 col-md-3">
                     <div class="row">Screen Size</div>
                     <div class="row">6.7Inch</div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container my-3">
+    <div class="container my-3 ">
         <div class="row">
             <div class="text-center">
-                <h1>why this phone?</h1>
-                <div class="row text-center col-md-6 offset-md-3 ">
+                <h1 style="margin-top: 50px;margin-bottom: 20px;" >why this phone?</h1>
+                <div style="margin-bottom: 20px;" class="row text-center col-md-6 offset-md-3  ">
                     It comes with a 6.70-inch touchscreen display with a resolution of 1080x2400 pixels.It is powered by a 1.8GHz octa-core Qualcomm Snapdragon 778G processor. It comes with 6GB or 8GB of RAM.It is powered by a 5000mAh battery.
                 </div>
             </div>
         </div>
     </div>
-    <div class="container my-3 ">
+    <!-- <div class="container my-3 ">
         <div class="row">
             <div class=" col-md-4 col-6 ">
                 <div class="row "><img src="./assets/photos/camera.jpg" alt="camera"></div>
@@ -124,60 +124,77 @@
                 <div class="row">Snapdragon 778G</div>
             </div>
         </div>
-    </div>
+    </div> -->
+       <div class="container">
+           <div class="card">
+               <div class="row">
+                   <div class="col">
+                       <div class="card-group border-8 ">
+                           <div class="card col-md-4">
+                               <img src="./assets/photos/camera.jpg" alt="camera" height="200px">
+                               <div class="card-body">64MP triple camera</div>
+                           </div>
+                           <div class="card col-md-4">
+                            <img src="./assets/photos/display.jpg" alt="refresh rate" height="200px">
+                            <div class="card-body">120Hz refresh rate</div>
+                        </div>
+                        <div class="card col-md-4 ">
+                            <img src="./assets/photos/processor.jpg" alt="processor" height="200px">
+                            <div class="card-body">Snapdragon 778G</div>
+                        </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+        
     
     <div class="container-fluid p-3 my-3">
-        <div class="row">
-            <div class=" offset-md-2 offset-lg-4 font-weight-bold" id="TEXT" href="123" >
-                <a  name="camera" > camera of this phone </a></div>
-        </div>
+        
+        <p id="TEXT" class="text-center font-weight-bold" ><a name="camera"></a>camera of this phone</p>
     </div>
     <div  class="container p-3 my-3 ">
         <div class="row">
-            <div class=" col-md-5 col-lg-4">
-                <h6>about camera</h6>
+            <div class=" col-md-5 col-lg-6">
+                <h6 style="margin-bottom: 28px;" > about camera</h6>
                 <p>
                     In this phone triple rear camera and one front camera.In rear camera primary camera of 64 megapixel. secondary camera of 12 megapixel. and last camera of 5 megapixel. 
                 </p>
                 <p>64 megapixel camera is our main camera. 12 megapixel camera is to capture wide range into your frame with a 123<span>&#176;</span> wide angle camera.and lasr 5 megapixel camera is to get up close with a 5 megapixel macro lens.</p>
                 <p>in front camera we can see 32 megapixel. one more feacture we can see inbuilt function in this phone is auto blur effect and set background wallpaper in video call. </p>
             </div>
-            <div class="col-md-7">
+            <div class="col-md-6">
                 <img  src="./assets/photos/samsung m52_1.jpg" alt="camera" height="300px">
             </div>
         </div>
     </div>
-    <div  class=" offset-md-2 offset-lg-4 font-weight-bold" id="TEXT" class="container p-3 my-3 ">
-        <div class="row">
-            <div>
-                <a name="monster feacture" > monster feacture of this phone</a></div>
-        </div>
-    </div>
+
+        <p id="TEXT" class="text-center font-weight-bold" ><a name="monster feacture"></a>monster feacture of this phone</p>
+
     <div  class="container p-3 my-3 ">
         <div class="row">
-            <div class=" col-md-4  ">
-                <h6>about Monster feacture</h6>
+            <div class=" col-md-6  ">
+                <h6 style="margin-bottom: 28px;">about Monster feacture</h6>
                 <p>
                     Body of this phone is 7.4mm very slim body. processor in this phone is 6nm Snapdragon 778G. It is  very best processor. and the refresh rate of this phone is 120Hz. display of this phone is FHD+sAMOLATED display.
                 </p>
                 <p>the phone supports 5G with 11 bands is so good. we seen the property of camera.</p>
                 <p>let's go forward the battery of this phone is 5000mAh. is not very good but average type. </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-6">
                 <img src="./assets/photos/monster.webp" alt="camera" height="300px">
             </div>
         </div>
     </div>
-    <div id="TEXT" class="container p-3 my-3 ">
-        <div class="row">
-            <div  class=" offset-md-1 offset-lg-3 font-weight-bold" id="TEXT" >
-                <a name="processor">processor and display of this phone</a></div>
-        </div>
-    </div>
+    <div  class="container p-3 my-3 ">
+   
+           
+        <p id="TEXT" class="text-center font-weight-bold" ><a name="processor"></a>processor and display of this phone</p>
+   
     <div  class="container p-3 my-3">
         <div class="row">
-            <div class="col-md-4">
-                <h6>about processor and display</h6>
+            <div class="col-md-6">
+                <h6 style="margin-bottom: 28px;">about processor and display</h6>
                 <p>
                     in this phone we have 6nm Snapdragon 778G processor.
                 </p>
@@ -185,21 +202,19 @@
                 <p>it improved the Gpu performance upto 85% </p>
                 <p>now let's see about display. the display of this phone is so good. it has full HD+ super AMOLATED display with 120Hz display.</p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-6">
                 <img src="./assets/photos/processor and display.webp" alt="camera" height="300px">
             </div>
         </div>
     </div>
-    <div id="TEXT" class="container p-3 my-3">
-        <div class="row">
-            <div  class=" offset-md-2 offset-lg-4 font-weight-bold" id="TEXT" >
-                <a name="battery">battery of this phone</a></div>
-        </div>
-    </div>
+    <div  class="container p-3 my-3">
+       
+        <p id="TEXT" class="text-center font-weight-bold" ><a name="battery"></a>battery of this phone</p>
+    
     <div  class="container my-3 p-3">
         <div class="row">
-            <div class="col-md-4">
-                <h6>about battery</h6>
+            <div class="col-md-6">
+                <h6 style="margin-bottom: 28px;">about battery</h6>
                 <p>
                     in this phone we have A monster 5000mAh battery. with 25W fast charger.
                 </p>
@@ -209,7 +224,7 @@
                 <p>we can use up to 17 hours of internet usage time.</p>
                 
             </div>
-            <div class="col-md-8">
+            <div class="col-md-6">
                 <img src="./assets/photos/battery.jpg" alt="camera" height="300px">
             </div>
         </div>
