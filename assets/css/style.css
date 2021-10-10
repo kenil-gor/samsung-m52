@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 :root {
     --dark:rgba(0,0,0,0);
     --Blue-color: rgb(66, 133, 244);
@@ -903,22 +906,28 @@ nav {
 
 .varient{
     font-size: 15px;
-    color: #e74c3c;
+    color: #3ce7d9;
 }
 
 #mobile_vala{
-    background-color:gray;
-    color: black;
+    background-color:rgb(107, 47, 47);
+    color: rgb(50, 166, 187);
     height: 100px;
     
 }
-
+#card{
+    background-color:rgb(107, 47, 47);
+    color: rgb(50, 166, 187);
+    height: 50px;
+    
+}
 #TEXT{
-    background-color: gray;
     color: rgb(138, 36, 36);
-    text-align: center;
+    text-align: end;
+    text-decoration: double;
     height: 40px;
     font-size: 25px;
+    
     
 }
 #nav{
@@ -937,29 +946,20 @@ nav {
     color: #000000;
 }
 
-#nav li{
-    display: inline-block;
-
-
-}
-
-#nav li a{
-    color: blue;
-    padding: 15px 10px;
-    display: block;
-
-}
 #nav li a:hover{
-    background:gray;
+    background:rgb(95, 196, 52);
 }
 #img{
-    background-color: #c0392b;
+    background-color: #002470;
     padding: 0;
     margin: 0;
     height: 90px;
 }
 
 #transition{
-    transition-duration: 4s;
-
+    
+    color: #d35b15;
+    padding: 15px 10px;
+    display: block;
+    transition-duration: .3s;;
 }

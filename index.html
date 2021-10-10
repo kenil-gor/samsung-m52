@@ -8,31 +8,36 @@
 
     <link rel="stylesheet" href="./assets/css/bootstrap.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <ul id="nav" class="nav justify-content-end">
-        <div class="container">
-            <div class="row">
-                <div  class="col col-md-2">
-                    <img id="img" src="./assets/photos/logo-removebg-preview.png" alt="logo" >
-                </div>
-                <div class="col">
-                    
-                      <li class="nav-item">
-                          <a  class="nav-link locomotive scroll " href="#camera"  aria-current="page" id="transition" >camera</a>
-                        </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#monster feacture" id="transition" >monster feacture</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#processor" id="transition" >processor and display</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#battery" id="transition" >battery</a>
-                      </li>
-                    </ul>
-              
-                </div>
-            </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img id="img" src="./assets/photos/logo-removebg-preview.png" alt="logo" ></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="img">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a  class="nav-link" href="#camera"  id="transition" >camera</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#monster feacture" id="transition" >monster feacture</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#processor" id="transition" >processor</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#battery" id="transition" >battery</a>
+            </li>
+            
+          </ul>
+          
         </div>
+      </nav>
+
+
+
+
   
         <title link="123">discription about samsung m52</title>
     </head>
@@ -62,7 +67,7 @@
                         8GB ram, 128GB internal storage
                       </label>
                     </div>
-                    <div class="button btn btn-primary btn-outline-danger">
+                    <div  class="button btn bg-red-05">
                         add to cart    
                     </div>
                 </div>
@@ -73,30 +78,30 @@
         </div>
         <div id="mobile_vala">
             <br>
-        <div  class="container   ">
+        <div   class="container   ">
             <div class="row">
-                <div class="col">
-                    <div class="row">Processor Brand</div>
+                <div id="card"  class="card col-md-3">
+                    <div class="row">Processor </div>
                     <div class="row">Qualcomm SM7325</div>
                 </div>
-                <div class="col">
+                <div id="card" class="card col-md-3">
                     <div class="row">RAM</div>
                     <div class="row">6GB & 8GB</div>
                 </div>
-                <div class="col">
+                <div id="card" class="card col-md-3">
                     <div class="row">Operating System</div>
                     <div class="row">Android 11</div>
                 </div>
-                <div class="col">
+                <div id="card" class="card col-md-3">
                     <div class="row">Screen Size</div>
                     <div class="row">6.7Inch</div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container m-4">
+    <div class="container my-3">
         <div class="row">
-            <div class="col text-center">
+            <div class="text-center">
                 <h1>why this phone?</h1>
                 <div class="row text-center col-md-6 offset-md-3 ">
                     It comes with a 6.70-inch touchscreen display with a resolution of 1080x2400 pixels.It is powered by a 1.8GHz octa-core Qualcomm Snapdragon 778G processor. It comes with 6GB or 8GB of RAM.It is powered by a 5000mAh battery.
@@ -104,30 +109,30 @@
             </div>
         </div>
     </div>
-    <div class="container m-4">
-        <div class="row offset-md-2">
-            <div class="col">
-                <div class="row"><img src="./assets/photos/camera.jpg" alt="camera"></div>
-                <div class="row">64MP triple camera</div>
+    <div class="container my-3 ">
+        <div class="row">
+            <div class="col-md-4 ">
+                <div class="row "><img src="./assets/photos/camera.jpg" alt="camera"></div>
+                <div class="row ">64MP triple camera</div>
             </div>
-            <div class="col">
+            <div class=" offset-md-1 col-md-4">
                 <div class="row"><img src="./assets/photos/display.jpg" alt="refresh rate"></div>
                 <div class="row">120Hz refresh rate</div>
             </div>
-            <div class="col">
+            <div class="col-md-3">
                 <div class="row"><img src="./assets/photos/processor.jpg" alt="processor"></div>
                 <div class="row">Snapdragon 778G</div>
             </div>
         </div>
     </div>
     
-    <div class="container m-5 p-5 ">
+    <div class="container-fluid p-3 my-3">
         <div class="row">
-            <div id="TEXT" href="123" >
+            <div class="offset-md-4 font-weight-bold" id="TEXT" href="123" >
                 <a  name="camera" > Now let's see about camera</a></div>
         </div>
     </div>
-    <div  class="container m-5 p-5 ">
+    <div  class="container p-3 my-3 ">
         <div class="row">
             <div class=" col-md-5 col-lg-4">
                 <h6>about camera</h6>
@@ -142,13 +147,13 @@
             </div>
         </div>
     </div>
-    <div id="TEXT" class="container m-5 p-5  ">
+    <div  class="offset-md-4 font-weight-bold" id="TEXT" class="container p-3 my-3 ">
         <div class="row">
-            <div id="TEXT">
+            <div>
                 <a name="monster feacture" > let's see about monster feacture of this phone</a></div>
         </div>
     </div>
-    <div  class="container m-5 p-5 ">
+    <div  class="container p-3 my-3 ">
         <div class="row">
             <div class=" col-md-4  ">
                 <h6>about Monster feacture</h6>
@@ -159,17 +164,17 @@
                 <p>let's go forward the battery of this phone is 5000mAh. is not very good but average type. </p>
             </div>
             <div class="col-md-8">
-                <img src="./assets/photos/monster.webp" alt="camera" height="200px">
+                <img src="./assets/photos/monster.webp" alt="camera" height="300px">
             </div>
         </div>
     </div>
-    <div id="TEXT" class="container m-5 p-5 ">
+    <div id="TEXT" class="container p-3 my-3 ">
         <div class="row">
-            <div id="TEXT" >
+            <div  class="offset-md-3 font-weight-bold" id="TEXT" >
                 <a name="processor">Now let's see about processor and display of this phone</a></div>
         </div>
     </div>
-    <div  class="container m-5 p-5">
+    <div  class="container p-3 my-3">
         <div class="row">
             <div class="col-md-4">
                 <h6>about processor and display</h6>
@@ -181,17 +186,17 @@
                 <p>now let's see about display. the display of this phone is so good. it has full HD+ super AMOLATED display with 120Hz display.</p>
             </div>
             <div class="col-md-8">
-                <img src="./assets/photos/processor and display.webp" alt="camera" height="200px">
+                <img src="./assets/photos/processor and display.webp" alt="camera" height="300px">
             </div>
         </div>
     </div>
-    <div id="TEXT" class="container m-5 p-5">
+    <div id="TEXT" class="container p-3 my-3">
         <div class="row">
-            <div id="TEXT" >
+            <div  class="offset-md-4 font-weight-bold" id="TEXT" >
                 <a name="battery">Now let's see about battery of this phone</a></div>
         </div>
     </div>
-    <div  class="container">
+    <div  class="container my-3 p-3">
         <div class="row">
             <div class="col-md-4">
                 <h6>about battery</h6>
